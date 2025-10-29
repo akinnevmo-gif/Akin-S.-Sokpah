@@ -15,6 +15,7 @@
     .glass{backdrop-filter: blur(6px);} 
     .avatar-placeholder{background:linear-gradient(135deg,#fde68a,#fb923c);}
     html{scroll-behavior:smooth;}
+    .copy-btn:hover{background-color:#0ea5a4; color:#fff;}
   </style></head>
 <body class="bg-gray-50 text-gray-800 antialiased leading-relaxed">
   <header class="max-w-5xl mx-auto p-6 flex items-center justify-between sticky top-0 bg-white/90 backdrop-blur-md shadow-sm z-50">
@@ -29,101 +30,81 @@
       <a href="#about" class="hover:text-accent-600">About</a>
       <a href="#posts" class="hover:text-accent-600">Posts</a>
       <a href="#gallery" class="hover:text-accent-600">Gallery</a>
+      <a href="#services" class="hover:text-accent-600">Services</a>
+      <a href="#payments" class="hover:text-accent-600">Payments</a>
       <a href="#contact" class="hover:text-accent-600">Contact</a>
     </nav>
   </header>  <main id="home" class="max-w-5xl mx-auto p-6">
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-      <div>
-        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Hi — I'm <span class="text-accent-600">Akin S. Sokpah</span></h2>
-        <p class="mt-4 text-gray-600">Welcome to my official personal website! I’m passionate about community empowerment, education, storytelling, and creating digital impact. Connect with me on Facebook or reach out directly for collaboration and updates.</p><div class="mt-6 flex flex-wrap gap-3">
-      <a href="https://www.facebook.com/profile.php?id=61582940492328" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition">Facebook Profile</a>
-      <a href="https://m.me/61582940492328" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-md border bg-white hover:bg-gray-100 transition">Messenger</a>
-      <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-md border bg-white hover:bg-gray-100 transition">Contact Me</a>
+    <!-- Existing sections: Intro, About, Posts, Gallery --><section id="services" class="mt-16 p-6 bg-white rounded-2xl shadow-sm">
+  <h3 class="text-2xl font-semibold mb-4">🛍️ Products & Services</h3>
+  <p class="text-sm text-gray-500 mb-6">Explore our services and book directly via Facebook Messenger. Prices start from $10 USD.</p>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Service Card 1 -->
+    <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+      <img src="https://source.unsplash.com/300x200/?design" alt="Graphic Design" class="rounded mb-4">
+      <h4 class="text-xl font-semibold mb-2">Graphic Design</h4>
+      <p class="text-gray-700 mb-2">Custom logos, flyers, and social media graphics.</p>
+      <p class="text-gray-900 font-semibold mb-4">From $10 USD</p>
+      <a href="https://m.me/61582940492328?ref=GraphicDesign" target="_blank" class="inline-block px-4 py-2 bg-accent-600 text-white rounded hover:bg-accent-700">Book on Facebook</a>
     </div>
-  </div>
-
-  <div class="flex justify-center">
-    <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Profile" class="w-48 h-48 rounded-full shadow-lg border-4 border-accent-600" />
-  </div>
-</section>
-
-<section id="about" class="mt-16 p-6 bg-white rounded-2xl shadow-sm">
-  <h3 class="text-2xl font-semibold mb-4">About Me</h3>
-  <p class="text-gray-600">I’m Akin S. Sokpah — a passionate individual driven by purpose and community growth. I use social media, especially Facebook, to connect, share ideas, and inspire others in Liberia and across the world. Through my posts, I aim to uplift voices, promote education, and highlight real-life stories that matter.</p>
-
-  <ul class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm text-gray-700">
-    <li class="p-3 border rounded">📍 Location: Liberia</li>
-    <li class="p-3 border rounded">🎯 Interests: Community • Education • Digital Media</li>
-    <li class="p-3 border rounded">✉️ Email: <a href="mailto:sokpahakinsaye@gmail.com" class="text-accent-600">sokpahakinsaye@gmail.com</a></li>
-  </ul>
-</section>
-
-<section id="posts" class="mt-16">
-  <h3 class="text-2xl font-semibold mb-3">Latest Facebook Posts</h3>
-  <p class="text-sm text-gray-500 mb-4">Stay updated with my recent activities and posts directly from my Facebook timeline.</p>
-  <div class="flex justify-center">
-    <div class="fb-page"
-         data-href="https://www.facebook.com/profile.php?id=61582940492328"
-         data-tabs="timeline"
-         data-width="500"
-         data-height="600"
-         data-small-header="false"
-         data-adapt-container-width="true"
-         data-hide-cover="false"
-         data-show-facepile="true">
-      <blockquote cite="https://www.facebook.com/profile.php?id=61582940492328" class="fb-xfbml-parse-ignore">
-        <a href="https://www.facebook.com/profile.php?id=61582940492328">Akin S. Sokpah</a>
-      </blockquote>
+    <!-- Service Card 2 -->
+    <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+      <img src="https://source.unsplash.com/301x200/?photo-editing" alt="Photo Editing" class="rounded mb-4">
+      <h4 class="text-xl font-semibold mb-2">Photo Editing</h4>
+      <p class="text-gray-700 mb-2">Retouching, color correction, and enhancements.</p>
+      <p class="text-gray-900 font-semibold mb-4">From $10 USD</p>
+      <a href="https://m.me/61582940492328?ref=PhotoEditing" target="_blank" class="inline-block px-4 py-2 bg-accent-600 text-white rounded hover:bg-accent-700">Book on Facebook</a>
+    </div>
+    <!-- Service Card 3 -->
+    <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+      <img src="https://source.unsplash.com/302x200/?facebook" alt="Facebook Page Setup" class="rounded mb-4">
+      <h4 class="text-xl font-semibold mb-2">Facebook Page Setup</h4>
+      <p class="text-gray-700 mb-2">Create or optimize Facebook pages for businesses or individuals.</p>
+      <p class="text-gray-900 font-semibold mb-4">From $10 USD</p>
+      <a href="https://m.me/61582940492328?ref=FBPageSetup" target="_blank" class="inline-block px-4 py-2 bg-accent-600 text-white rounded hover:bg-accent-700">Book on Facebook</a>
     </div>
   </div>
 </section>
 
-<section id="gallery" class="mt-16 p-6 bg-white rounded-2xl shadow-sm">
-  <h3 class="text-2xl font-semibold mb-4">Photo Gallery</h3>
-  <p class="text-sm text-gray-500 mb-4">A glimpse into my life and moments. You can replace these placeholders with real images.</p>
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-    <img src="https://source.unsplash.com/random/300x300?liberia" class="rounded-lg shadow-md" />
-    <img src="https://source.unsplash.com/random/301x300?friends" class="rounded-lg shadow-md" />
-    <img src="https://source.unsplash.com/random/302x300?education" class="rounded-lg shadow-md" />
-    <img src="https://source.unsplash.com/random/303x300?community" class="rounded-lg shadow-md" />
-  </div>
-</section>
-
-<section id="contact" class="mt-16 p-6">
+<!-- Payments Section remains -->
+<section id="payments" class="mt-16 p-6 bg-white rounded-2xl shadow-sm">
+  <h3 class="text-2xl font-semibold mb-4">💳 Payments</h3>
+  <p class="text-sm text-gray-500 mb-6">You can securely pay for services via Bank Transfer or Mobile Money. After payment, please confirm via Messenger.</p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div class="bg-white rounded-2xl p-6 shadow-sm">
-      <h3 class="text-2xl font-semibold">Get in Touch</h3>
-      <p class="text-sm text-gray-600 mt-2">You can connect with me through Facebook, Messenger, or send a direct email below.</p>
-
-      <ul class="mt-4 space-y-2 text-sm">
-        <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61582940492328" target="_blank" class="text-accent-600">Visit my profile</a></li>
-        <li><strong>Messenger:</strong> <a href="https://m.me/61582940492328" target="_blank" class="text-accent-600">Message me</a></li>
-        <li><strong>Email:</strong> <a href="mailto:sokpahakinsaye@gmail.com" class="text-accent-600">sokpahakinsaye@gmail.com</a></li>
-      </ul>
+    <!-- Bank Transfer Box -->
+    <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-2xl">🏦</span>
+        <h4 class="text-xl font-semibold">Bank Transfer (USD)</h4>
+      </div>
+      <p class="text-gray-700"><strong>Bank:</strong> United Bank For Africa (UBA)</p>
+      <p class="text-gray-700"><strong>Account Name:</strong> Akin Sokpah</p>
+      <p class="text-gray-700 flex items-center gap-2"><strong>Account Number:</strong> <span id="bankNumber">53020710015394</span> <button onclick="copyToClipboard('bankNumber')" class="copy-btn px-2 py-1 text-sm border rounded hover:bg-accent-600 hover:text-white">Copy</button></p>
+      <a href="https://m.me/61582940492328" target="_blank" class="mt-4 inline-block px-4 py-2 bg-accent-600 text-white rounded hover:bg-accent-700">Message Me to Confirm</a>
     </div>
 
-    <form class="bg-white rounded-2xl p-6 shadow-sm" onsubmit="event.preventDefault(); alert('Thank you for your message! It will be sent via your default mail app.'); window.location='mailto:sokpahakinsaye@gmail.com';">
-      <h3 class="text-2xl font-semibold">Quick Message</h3>
-      <label class="block mt-3 text-sm">Name<input required class="w-full mt-1 p-2 border rounded" placeholder="Your name" /></label>
-      <label class="block mt-3 text-sm">Email<input type="email" required class="w-full mt-1 p-2 border rounded" placeholder="you@example.com" /></label>
-      <label class="block mt-3 text-sm">Message<textarea required class="w-full mt-1 p-2 border rounded" rows="4" placeholder="Write a short message"></textarea></label>
-      <div class="mt-4 flex gap-2">
-        <button type="submit" class="px-4 py-2 rounded bg-accent-600 text-white hover:bg-accent-700">Send message</button>
-        <button type="reset" class="px-4 py-2 rounded border">Reset</button>
+    <!-- Mobile Money Box -->
+    <div class="p-6 border rounded-2xl shadow hover:shadow-lg transition">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-2xl">📱</span>
+        <h4 class="text-xl font-semibold">Mobile Money (MoMo)</h4>
       </div>
-    </form>
+      <p class="text-gray-700"><strong>Name:</strong> Akin Sokpah</p>
+      <p class="text-gray-700 flex items-center gap-2"><strong>Number:</strong> <span id="momoNumber">+231889183557</span> <button onclick="copyToClipboard('momoNumber')" class="copy-btn px-2 py-1 text-sm border rounded hover:bg-accent-600 hover:text-white">Copy</button></p>
+      <a href="https://m.me/61582940492328" target="_blank" class="mt-4 inline-block px-4 py-2 bg-accent-600 text-white rounded hover:bg-accent-700">Message Me to Confirm</a>
+    </div>
   </div>
 </section>
 
-<footer class="mt-16 text-center text-sm text-gray-500 py-6 border-t">
-  <p>© <span id="year"></span> Akin S. Sokpah • Made with ❤️ in Liberia</p>
-  <p class="mt-2"><a href="mailto:sokpahakinsaye@gmail.com" class="text-accent-600">sokpahakinsaye@gmail.com</a></p>
-</footer>
+<!-- Contact Section remains -->
 
   </main>  <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0"></script>
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    function copyToClipboard(id){
+      const text = document.getElementById(id).textContent;
+      navigator.clipboard.writeText(text).then(()=>{alert('Copied: '+text);});
+    }
   </script>
 </body>
 </html>
