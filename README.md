@@ -22,8 +22,8 @@ It securely integrates with News API, OpenAI API, and Video API using a Flask ba
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/akin-motivational-quotes.git
-cd akin-motivational-quotes
+git clone https://github.com/akinnevmo-gif/akin-s.-sokpah.git
+cd akin-s.-sokpah
 ```
 
 ### 2. Install dependencies
